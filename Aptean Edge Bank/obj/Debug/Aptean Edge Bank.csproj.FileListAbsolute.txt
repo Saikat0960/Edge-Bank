@@ -1,0 +1,28 @@
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Aptean Edge Bank.exe.config
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Aptean Edge Bank.exe
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Aptean Edge Bank.pdb
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Business Layer.exe
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Business Layer.pdb
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\bin\Debug\Business Layer.exe.config
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.csprojAssemblyReference.cache
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.AddAccount.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.AddCustomerForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.AmountForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.BankDetailsForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.BankMainForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.ChangePasswordForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.CreditDebitForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.CustomerAccounts.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.CustomerLoginForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.EdgeBank.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.IssueLoanForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.LoanForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.LoginValidation.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.Properties.Resources.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.RepaymentLoanForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean_Edge_Bank.ShowAccountForm.resources
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.csproj.GenerateResource.cache
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.csproj.CoreCompileInputs.cache
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.csproj.CopyComplete
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.exe
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Aptean Edge Bank\obj\Debug\Aptean Edge Bank.pdb

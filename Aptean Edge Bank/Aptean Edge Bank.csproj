@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C129947E-817D-41F5-8133-D99F5DA406EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aptean_Edge_Bank</RootNamespace>
+    <AssemblyName>Aptean Edge Bank</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAccount.Designer.cs">
+      <DependentUpon>AddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomerForm.Designer.cs">
+      <DependentUpon>AddCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmountForm.Designer.cs">
+      <DependentUpon>AmountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankDetailsForm.Designer.cs">
+      <DependentUpon>BankDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankMainForm.Designer.cs">
+      <DependentUpon>BankMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditDebitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditDebitForm.Designer.cs">
+      <DependentUpon>CreditDebitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAccounts.Designer.cs">
+      <DependentUpon>CustomerAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLoginForm.Designer.cs">
+      <DependentUpon>CustomerLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdgeBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdgeBank.Designer.cs">
+      <DependentUpon>EdgeBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueLoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueLoanForm.Designer.cs">
+      <DependentUpon>IssueLoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanForm.Designer.cs">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginValidation.Designer.cs">
+      <DependentUpon>LoginValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepaymentLoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepaymentLoanForm.Designer.cs">
+      <DependentUpon>RepaymentLoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAccountForm.Designer.cs">
+      <DependentUpon>ShowAccountForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAccount.resx">
+      <DependentUpon>AddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomerForm.resx">
+      <DependentUpon>AddCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmountForm.resx">
+      <DependentUpon>AmountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankDetailsForm.resx">
+      <DependentUpon>BankDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankMainForm.resx">
+      <DependentUpon>BankMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditDebitForm.resx">
+      <DependentUpon>CreditDebitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAccounts.resx">
+      <DependentUpon>CustomerAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLoginForm.resx">
+      <DependentUpon>CustomerLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdgeBank.resx">
+      <DependentUpon>EdgeBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueLoanForm.resx">
+      <DependentUpon>IssueLoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanForm.resx">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginValidation.resx">
+      <DependentUpon>LoginValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RepaymentLoanForm.resx">
+      <DependentUpon>RepaymentLoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAccountForm.resx">
+      <DependentUpon>ShowAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddUser_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteUser_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowAllCode_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowAllFiles_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveCommand_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginStatus_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TransactionScope_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TransactionalComponent_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoneyEditor_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InformationSymbol_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateLinkedTable_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business Layer\Business Layer.csproj">
+      <Project>{0d7861c3-0d36-4d3d-910f-b60810722d36}</Project>
+      <Name>Business Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshScript_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyLongTextToClipboard_16x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

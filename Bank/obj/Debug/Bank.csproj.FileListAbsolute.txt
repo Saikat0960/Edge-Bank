@@ -1,0 +1,6 @@
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\bin\Debug\Bank.dll
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\obj\Debug\Bank.dll
+C:\Users\skundu\Desktop\Project\Aptean Edge Bank\Bank\obj\Debug\Bank.pdb
